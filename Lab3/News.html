@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Новини </title>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <style type="text/css">
+    body {
+      background: url(background.jpg)
+    }
+    .div1{
+    margin-right: 20;
+    width: 620px;
+    height: 600px;
+    text-align: center;
+    float: left;
+    background-color: white;
+    }
+    .div2{
+    width: 620px;
+    height: 600px;
+    text-align: center;
+    float: left;
+    background-color: white;
+    }
+    .div3{
+    width: 620px;
+    height: 600px;
+    text-align: center;
+    float: left;
+    background-color: white;
+    }
+    .foot{
+      clear: left;
+    }
+    @keyframes bounce {
+      0% {
+        transform: scale(0.25);
+        opacity: 0;
+      }
+      35% {
+        transform: scale(0.75);
+        opacity: 1;
+      }
+      67% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    @keyframes secondAnim {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes bounce2 {
+      0% {
+        transform: scale(1.025);
+        opacity: 0.5;
+      }
+      50% {
+        transform: scale(1.05);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    div {
+      animation-duration: 1.5s;
+      animation-name: bounce;
+    }
+    header {
+      animation-duration: 2.5s;
+      animation-name: secondAnim;
+      color: lightgrey;
+    }
+    li {
+      animation-play-state: paused;
+      animation:  bounce2 2s ease-in-out 2s forwards;
+    }
+    li:hover {
+      animation-play-state: running;
+    }
+    </style>
+  </head>
+  <body>
+    <nav class ="navigation">
+      <ul class = "nav">
+        <li><a href="MainPage.html">Головна</a></li>
+        <li><a href="News.html">Новини</a></li>
+        <li><a href="ForStudents.html">Студентам</a>
+          <ul>
+            <li><a href="Program.html">Програма</a></li>
+            <li><a href="Lab.html">Лабораторні</a></li>
+            <li><a href="Literature.html">Література</a></li>
+          </ul>
+        </li>
+        <li><a href="Feedbacks.html">Відгуки</a></li>
+        <li><a href="Contacts.html">Контакти</a></li>
+        <li><a href="Admin.html">Admin</a></li>
+      </ul>
+    </nav>
+    <header>
+      <h1> <br><br><br> Новини </h1>
+    </header>
+    <div class = "div1">
+      <p><img src="Nimg.jpg" alt="Тут повинне бути зображення"></p><h4>Спрощене позовне провадження має прискорити розгляд справ і розвантажити суди</h4> В ході реформи процесуального законодавства, передбаченого законопроектом № 6232, мабуть, найбільші зміни зазнає господарський процес, адже оновлена редакція ГПК поповниться такими формами судочинства, як наказне і спрощене позовне провадження <a href="http://www.sklaw.com.ua/ua/news/565_nakazne_ta_sproschene_pozovne_provadzhennya_v_gospodarskomu_procesi/">читати дальше</a>
+    </div>
+    <div class = "div2">
+      <p><img src="Nimg.jpg" alt="Тут повинне бути зображення"></p><h4>Стадії позовного провадження: виклики та аспекти застосування положень проекту ГПК України</h4> Запропоновані Радою з питань судової реформи зміни до господарського процесуального законодавства особисто я підтримую, хоча в деяких аспектах вони ще потребують обговорення та вдосконалення <a href="https://uajcc.org/stadii_isk_proizvod/">читати дальше</a>
+    </div>
+    <div class = "div3">
+      <p><img src="Nimg.jpg" alt="Тут повинне бути зображення"></p><h4>Зміни до процесуального законодавства вже у Раді</h4> Президент України зареєстрував у Верховній Раді як невідкладний законопроект про внесення змін до Господарського процесуального кодексу України, Цивільного процесуального кодексу України, Кодексу адміністративного судочинства України та інших законодавчих актів <a href="http://ukrainepravo.com/news/ukraine/zmini-do-protsesualnogo-zakonodavstva-vzhe-u-radi-osnovni-noveli-zakonoproektu/">читати дальше</a>
+    </div>
+    <footer class = "foot">
+        Національний університет "Львівська політехніка" 2017
+    </footer>
+  </body>
+</html>

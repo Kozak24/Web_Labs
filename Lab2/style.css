@@ -1,0 +1,74 @@
+body {
+      margin-left: 20px;
+      margin-right: 20px;
+}
+p, a, div {
+      font-size: 19px;
+      line-height: 1.1em;
+}
+header {
+      text-align: center;
+}
+/*footer {
+      height: 50px;
+      text-align: left;
+      background: #808080;
+      color: #D3D3D3;
+}*/
+.navigation {
+        margin-left: 28%;
+}
+.nav {
+        text-align: center;
+        list-style: none; /*Видалення крапок */
+}
+.nav li {
+        float: left; /*Список в один ряд*/
+        margin-right: 2px;
+        font-family: Arial;
+        font-size: 14px;
+}
+.nav li a {
+        display: block; /*Відображення блоків*/
+        padding: 20px 20px; /*Відступ всередині блока*/
+        background: #808080;
+        color: #D3D3D3;
+        text-decoration: none; /*Видалення підкреслювання посилань*/
+}
+.nav li a:hover { /*Зміна кольору при наведенні*/
+        background: #D3D3D3;
+        color: #808080;
+}
+.nav li ul{
+        list-style: none;
+        position: absolute;
+        display: none;
+        margin-left: -40px;
+}
+.nav a{
+        padding: -20px;
+}
+.nav li ul li{
+        float: none;
+        display: inline;
+        width: 136px;
+        line-height: 0px;
+}
+.nav li ul li:hover {
+        background: #808080;
+}
+.nav li:hover ul {
+        display: block;
+}
+.nav li ul li {
+        display: block;
+        background: #D3D3D3;
+}
+.foot {
+      clear: left;
+      clear: right;
+      height: 50px;
+      text-align: left;
+      background: #808080;
+      color: #D3D3D3
+}
