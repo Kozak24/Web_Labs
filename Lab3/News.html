@@ -60,15 +60,15 @@
     }
     @keyframes bounce2 {
       0% {
-        transform: scale(1.025);
+        transform: scale(1.01);
         opacity: 0.5;
       }
       50% {
-        transform: scale(1.05);
+        transform: scale(1.02);
         opacity: 1;
       }
       100% {
-        transform: scale(1);
+        transform: scale(1s);
       }
     }
     div {
@@ -82,10 +82,11 @@
     }
     li {
       animation-play-state: paused;
-      animation:  bounce2 2s ease-in-out 2s forwards;
+
     }
-    li:hover {
+    li a:hover {
       animation-play-state: running;
+      animation:  bounce2 ease-in-out 4s forwards;
     }
     </style>
   </head>
