@@ -1,0 +1,28 @@
+p, a, div {
+      font-size: 19px;
+      line-height: 1.1em;
+}
+header {
+      text-align: center;
+}
+body {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.divForNews{
+width: 100%;
+text-align: center;
+background: white;
+}
+.dropdown-menu li{
+  display: none;
+  margin-left: 30px;
+}
+.foot {
+      clear: left;
+      clear: right;
+      height: 50px;
+      text-align: left;
+      background: #808080;
+      color: #D3D3D3
+}
