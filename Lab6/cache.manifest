@@ -1,0 +1,22 @@
+CACHE MANIFEST
+
+CACHE:
+index.html
+News.html
+Curriculum.html
+style.css
+bootstrap.min.css
+Img2.jpg
+nimg1.jpg
+favicon.ico
+offline.js
+bootstrap.js
+bootstrap.min.js
+
+
+NETWORK:
+Feedbacks.html
+Admin.html
+
+FALLBACK:
+error.html
