@@ -149,6 +149,7 @@ function show(){
        if (cursor){
          var tempNews = new News (cursor.value.title, cursor.value.descr, cursor.value.image);
          createNews(tempNews);
+         var request = db.transaction(["news"], "readwrite").objectStore("news").delete(cursor.primaryKey);
          cursor.continue();
        }
      };

@@ -89,6 +89,7 @@ function show(){
         if (cursor) {
           var tempFeed = new Feedback(cursor.value.name, cursor.value.feedback, cursor.value.date);
           createFeedback(tempFeed);
+          var request = db.transaction(["feedbacks"], "readwrite").objectStore("feedbacks").delete(cursor.primaryKey);
           cursor.continue();
       }
     }
